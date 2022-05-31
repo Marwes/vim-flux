@@ -19,6 +19,7 @@ syn match   fluxKeyword        "return"
 syn match   fluxKeyword        "package"
 syn match   fluxKeyword        "option"
 syn match   fluxKeyword        "test"
+syn match   fluxKeyword        "where"
 
 
 syn keyword   fluxConditional        if then else
