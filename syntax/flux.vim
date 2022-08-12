@@ -13,15 +13,7 @@ syn keyword     fluxTodo              contained TODO FIXME XXX BUG
 syn cluster     fluxCommentGroup      contains=fluxTodo
 syn region      fluxComment           start="//" end="$"  contains=@fluxCommentGroup,@Spell
 
-syn match   fluxKeyword        "builtin"
-syn match   fluxKeyword        "empty"
-syn match   fluxKeyword        "return"
-syn match   fluxKeyword        "package"
-syn match   fluxKeyword        "option"
-syn match   fluxKeyword        "test"
-syn match   fluxKeyword        "testcase"
-syn match   fluxKeyword        "where"
-
+syn keyword fluxKeyword builtin empty return package option test testcase where
 
 syn keyword   fluxConditional        if then else
 
